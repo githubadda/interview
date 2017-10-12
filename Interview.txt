@@ -1,0 +1,61 @@
+EVER GENT  Company 
+-----------------------
+Linux
+-----
+Acc expiry Chase -m  cmd
+Monitoring  TOP,PS
+Ports check  netstat -plunt 
+Nslookup     ip  -->shows dns name
+DNS Forward  Name to IP
+    Reverse  IP to Name
+Daily tasks   using crontab
+SED           stream line editor like vi
+Performance tuning
+Troubleshoot
+Error code 4xx,5xx   4xx client side, 5xx serverside
+Traceroute
+Tomcat config
+Nagios config file & how to monitor
+New relic config & how to monitor    Diff
+Ftp port 21 config /etc/vsftpd/vsftpd.conf
+HTTP port & config 80 /etc/httpd/conf/httpd.conf
+Dns port 53 udp/tcp 
+Ldap 
+Telnet
+Ping
+Ifconfig
+how to start service in 6,7
+smtp port 25
+Mysql port 3306
+      having 100 ips how to give perticular ip priveleges
+crontab every 1.5 hr 
+$? 
+Environment variable 
+
+ssh keygen 
+
+AWS
+---
+ELB -Appl-DB using vpc
+AWS eg
+s3
+Cloudfront
+RDS
+VPC
+glacier
+SNS
+
+Devops
+-----
+src to production flow
+project name,which appl,environment,archetecture
+Ansible dynamic inventory
+
+Not connect to remote how to troubleshoot
+Using Ansible ec2 up deploy tomcat ok where u developed like Awscli?
+How to run multiple ports like tomcat
+how to create 10 instances using Awscli
+
+
+
+
