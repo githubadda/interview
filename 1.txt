@@ -1,0 +1,24 @@
+Diff b/w maven N free-style project-----
+
+A maven project is a project that will analyze the pom.xml file in greater detail 
+and produce a project that's geared towards the targets that are invoked. The maven 
+project is smart enough to incorporate build targets like the javadoc or test targets 
+and automatically setup the reports for those targets. There is little configuration required 
+for it. See: http://wiki.hudson-ci.org/display/HUDSON/Building+a+maven2+project for more information 
+on Maven project.
+
+A Free-Style project is a project that can incorporate almost any type of build. While a maven project 
+you can only build maven projects, the Free-Style project is the more "generic" form of a project. You 
+can execute shell/dos scripts, invoke ant, and a lot more. Majority of the plugins are written to use 
+the free-style project. The maven module is limited in that it can't invoke a shell script, or anything 
+else just the maven targets. See: http://wiki.hudson-ci.org/display/HUDSON/Building+a+software+project for 
+more information on a Free-Style project.
+
+tracert cmd--
+tracert -d www.yahoo.com
+
+By default, these files are located at TOMCAT-HOME/conf/server.xml and TOMCAT-HOME/conf/web.xml, 
+respectively. Don't do the same configuration work twice
+
+
+
