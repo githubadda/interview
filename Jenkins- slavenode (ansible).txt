@@ -1,0 +1,35 @@
+192.168.112.136 jenkins server
+192.168.112.137 slave
+
+Install Ansible on server and slave node with python-pip
+
+
+Jenkins server-
+
+Assign Ansible path - Global tool configurations 
+  - /usr/bin
+  
+  
+create a slave node on jenkins with ssh username and password
+
+  
+create job - ansible
+
+Goto ansible job 
+     check the box (Restrict where this project can be run)
+	 select the slave node
+	
+	
+	Build
+		invoke ansible playbook
+			give path of the yml file on slave node   ex./root/workspace/ansible2/httpd.yml
+	
+		select the file or host list
+			give the path of the hostfile on slave node or ip address
+		
+		credentials
+			username and password
+			
+	
+		
+		

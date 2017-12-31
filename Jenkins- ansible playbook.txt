@@ -1,0 +1,30 @@
+192.168.112.136 jenkins server
+
+Install ansible with python-pip and jenkins on server
+
+
+Jenkins server-
+
+Assign Ansible path - Global tool configurations 
+  - /usr/bin
+  
+
+  
+create job - ansible
+
+Goto ansible job 
+	
+	
+	Build
+		invoke ansible playbook
+			give path of the yml file   ex./var/lib/jenkins/workspace/ansible2/httpd.yml
+	
+		select the file or host list
+			give the path of the hostfile on slave node or ip address
+		
+		credentials
+			username and password
+			
+	
+		
+		
